@@ -1,0 +1,8 @@
+# Nmap 7.93 scan initiated Fri Apr 28 10:31:51 2023 as: nmap -p80 "--script=vuln and safe" -oN escaneo5.txt 10.10.11.208
+Nmap scan report for 10.10.11.208
+Host is up (0.17s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+# Nmap done at Fri Apr 28 10:32:18 2023 -- 1 IP address (1 host up) scanned in 26.43 seconds
