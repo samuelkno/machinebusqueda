@@ -1,0 +1,13 @@
+# Nmap 7.93 scan initiated Fri Apr 28 10:28:03 2023 as: nmap -p80 --script http-enum -sV -vvv -n --min-rate 5000 -oN escaneo4.txt 10.10.11.208
+Nmap scan report for 10.10.11.208
+Host is up, received echo-reply ttl 63 (0.13s latency).
+Scanned at 2023-04-28 10:28:04 EDT for 43s
+
+PORT   STATE SERVICE REASON         VERSION
+80/tcp open  http    syn-ack ttl 63 Apache httpd 2.4.52
+|_http-server-header: Apache/2.4.52 (Ubuntu)
+Service Info: Host: searcher.htb
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Apr 28 10:28:47 2023 -- 1 IP address (1 host up) scanned in 43.73 seconds
